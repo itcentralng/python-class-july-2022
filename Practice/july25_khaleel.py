@@ -21,6 +21,8 @@ print('{} is the best football player to ever live at the age of {}.'.format(nam
 
 print('{} is the best football player to ever live at the age of {}.'.format(name.split(' ')[1], age))
 
+print(name.index('a'))
+
 
 
 

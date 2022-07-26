@@ -22,3 +22,24 @@ print(first_name.swapcase())
 
 name = ("Umar")
 print(name [-1])
+
+age = ("34")
+print("Hello {}, are you {} years old.".format(name , age ))
+
+name1 = ('Bukar')
+country = ('america')
+print("Hello {}, are you in {}".format(name1, country))
+
+print(111+111)
+print("Umar")
+
+first_name = ("Uthman ")
+second_name = ("Muhammad ")
+last_name = ("Bukar ")
+print(first_name + second_name + last_name)
+
+print(first_name.capitalize())
+print(second_name.index('m'))
+print(last_name.casefold())
+
+

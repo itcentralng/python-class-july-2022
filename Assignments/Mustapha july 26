@@ -1,0 +1,15 @@
+fruit = ('mango,orange,apple,banana,nut')
+
+print(fruit[:5])
+print(fruit[6:12])
+print(fruit[13:18])
+print(fruit[19:25])
+print(fruit[26:])
+
+# user input
+
+Name = input("What is your  name? ")
+dob =2022- int( input("What is your Dob? "))
+print('you are {} years old'.format(dob))
+
+

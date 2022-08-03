@@ -8,3 +8,5 @@ print(fruit1)
 name = input("Enter your name please ")
 print('{} is your normal name'.format(name))
 print('{} is your name in reverse'.format(name[::-1]))
+
+

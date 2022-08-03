@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+x = len("Hello")
+print(x)
+
+list2 = [[]]
+
+fruits = ['Apple', 'Orange', 'Banana']
+print(fruits[1])
+print(fruits[2][2:])
+print(fruits[1][2:].replace('n',''))
+print(fruits[1][2]+fruits[1][4:])
+
+#LIST METHODS
+
+# .append
+
+fruits.append('Mango')
+
+print(fruits)
+
+index = fruits.index('Apple')
+print(index)
+
+
+=======
 # Introduction to LIST
 
 emptylist = []
@@ -90,3 +115,4 @@ print(fruits)
 3. Print out the information of each student in this format:
     "My name is x, I am x years old and I enjoy x, y and z."
 """
+>>>>>>> f8cbc164c1523eea19bbb27e42a7d0dfcae86c8c

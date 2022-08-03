@@ -6,7 +6,7 @@ fruits=['Apple','Orange','Banana']
 
 print(fruits[1])
 print(fruits[2][2:])
-print(fruits[1][2:].replace('n',''))
+print(fruits[1][2:].replace('n','')) #.replace(replaces a slected sring with the given string)
 print(fruits[1][2]+fruits[1][4:])
 
 #List Methods
@@ -23,7 +23,7 @@ print(fruits)
 fruits.pop(2)
 print(fruits)
 
-#.extend (adds the itrabels to the variable list)
+#.extend (adds the itrabels to the list)
 fruits.extend(['Guava','Melon'])
 print(fruits)
 

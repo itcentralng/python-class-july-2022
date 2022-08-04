@@ -30,3 +30,22 @@ print(fruits)
 listofints = [1, 2,3,4, 5, 6, 7]
 print(listofints)
 
+# Dictionary
+
+students = {'name':'Uthman bukar', 'age':45}
+print(students['age'])
+print(students['name'])
+
+students['Height'] = '3.5'
+print(students)
+
+students['weight'] = '30.5 KG'
+print(students)
+
+students['position'] = '1st'
+print(students)
+
+students['siblings'] = [{'name': 'kasim', 'age': '45',}]
+print(students)
+
+print(students['position'])

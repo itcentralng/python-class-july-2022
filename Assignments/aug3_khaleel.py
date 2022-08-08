@@ -1,10 +1,10 @@
 fruits=[{'name':'Apple', 'taste':6.5, 'colour':'red'}, #taste score /10
-        {'name':'Pear', 'taste':8, 'colour':'green' },
+        {'name':'Pear', 'taste':8, 'colour':'green'},
         {'name':'Grapes', 'taste':7.5, 'colour':'purple'},
         {'name':'Orange', 'taste':7.5, 'colour':'orange'},
         {'name':'Tomato', 'taste':5, 'colour':'red'},]
 
-print(fruits)
+#print(fruits)
 
 fruits[0]['price']= 'N10'
 fruits[1]['price']= 'N15'

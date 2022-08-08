@@ -1,4 +1,4 @@
-me= {'name':'Khaleel Dasuki', 'address':'Umaru Guandu road', 
+me= {'name':'Ibrahim Khaleel', 'address':'Umaru Guandu road', 
         'number':'09038786136', 'age':20, 'dob':2002, 'pob':'Jeddah',
             'work experience':'1 month', 'schools attented':'Al-Amanah Academy, Zamani College, Regent College, Newcastle University'}
 

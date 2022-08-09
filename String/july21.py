@@ -1,4 +1,4 @@
-Data types are
+# Data types are
 
 #Integer
 # String
@@ -7,7 +7,7 @@ Data types are
 # Set
 # None
 
-Integers are
+"""Integers are
 
 Integers are any whole number either positive or negetive
 example of integers are: 1 -1 3 -3 5 -10 etc
@@ -43,4 +43,4 @@ Arithmetic operators are the well known operators in mathematics these are:
 +
 -
 *
-/ 
+/ """

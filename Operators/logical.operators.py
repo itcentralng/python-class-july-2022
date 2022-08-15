@@ -26,7 +26,7 @@ print(a and b)
 print(a or b)
 print(not a)
 
-print("\n\n")
+print(\n\n)
 
 print(a and b and not a)
 print(a or b or not a)

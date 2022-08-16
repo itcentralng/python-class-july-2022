@@ -12,4 +12,17 @@ if "mango" in fruits:
 else:
     print("mango is not present in the string")
 
+#1
+
+number = input("type in a randon number\n")
+requirment = "0"
+if number  > requirment:
+    print("The number is positive")
+elif number < requirment:
+    print("The number is negative")
+else:
+    print("The number is zero")
+
+
+
 

@@ -25,13 +25,13 @@ What are conditional statements?
 # # IF and ELSE
 students = ["001", "002", "003", "004"]
 
-if "001" in students:
+if "006" in students:
     print("001 is present in the list")
 else:
     print("001 is not present in the list")
 
 # # ELSE IF
-
+'''
 if "001" in students:
     print("001 is present in the list")
 elif "005" in students:
@@ -50,3 +50,4 @@ if "002" in students:
     print("002 is present in the list")
 if "003" in students:
     print("003 is present in the list")
+    '''

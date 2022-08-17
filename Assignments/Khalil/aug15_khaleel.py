@@ -3,11 +3,10 @@ required='0'
 
 if number > required:
     print('The number is positive')
-elif number == required:
-    print('The number is zero')
 elif number < required:
     print('The number is negative')
-
+else:
+    print('The number is zero')
 
 
 names= ['Khaleel', 'Bello', 'Bukar', 'Mustapha', 'Rabiu', 'Muazu', 'Yaasir']

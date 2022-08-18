@@ -1,14 +1,14 @@
-username={'Uthman':'tman', 'Musa':'moh', 'Mustapha':'alpha', 'Bukar':'kar'}
-pswd={'12345':'Uthman', '6789':'Musa', '2468':'Mustapha', '13579':'Bukar'}
+username={'Uthman':'tman','Bukar':'elchapoo'}
+pswd={'12345':'Uthman', '10009':'Bukar'}
 
 for u in username:
-    name= input('Enter your username: ')
+    name= input('username please: ')
     if username.get(name):
-        print('Enter password: ')
+        print('password please: ')
     else:
-        print('Username does not exist')
+        print('invalid')
     password= input()
     if pswd.get(password):
         print('You have succesfully logged in!')
     else:
-        print('Password is incorrect')
+        print('incorrect password')

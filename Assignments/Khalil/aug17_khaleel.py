@@ -1,10 +1,10 @@
 meanings = {'eat':'to consume food', 'run':'to walk fast', 'ride':'to mount something'}
 
-word = input('Search the meaning of a word: ')
-
 for m in meanings:
-    if word in meanings:
-        print()
+    word = input('Search for the meaning of a word: ')
+    word = word.lower().strip()
+    if meanings.get(word):
+        print(meanings.get(word))
     else:
         print('Word not found')
 

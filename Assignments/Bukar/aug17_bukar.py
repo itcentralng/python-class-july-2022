@@ -9,3 +9,6 @@ for b in range(10):
         print(animals.get(word))
     else:
         print('Animal not found')
+
+
+

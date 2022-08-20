@@ -13,6 +13,7 @@ print(fruits[29:35])
 print(fruits[0:5]+fruits[29:])
 
 # Number Four
-name = input('Enter your name ')
-Date_of_birth =2022-int(input('Enter your date of birth '))
-print('you are {} years old'.format(Date_of_birth))
+first_name = input("What is your first name? ")
+
+print('you are '.format(first_name))
+

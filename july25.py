@@ -7,7 +7,7 @@ print(name[3])
 print(name[-1])
 
 print(name.capitalize())
-print(name.casefold())
+
 print(name.center(11, 'x'))
 print(name.count('m', 2, 3))
 

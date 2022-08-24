@@ -52,3 +52,19 @@ a word and the program will return what the word means. If the word does not
 exist in the program then it will return "Word not found". The program should
 be case insensitive. The program should allow users to search for words 10 times only.
 """
+
+dictionary = {
+    "name": "An identity given to a person or thing",
+    "orange": "A round mostly orange colored fruit",
+    "elephant": "A giant animal mostly found in the forest",
+    "cake": "A pastry made with flour, butter and sugar",
+    "computer": "A machine that aids in calculation"
+}
+
+for d in dictionary:
+    word = input("Search for a word: ")
+    word = word.lower().strip()
+    if dictionary.get(word):
+        print(dictionary.get(word))
+    else:
+        print("Word not found")

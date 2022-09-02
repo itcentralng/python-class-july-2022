@@ -2,11 +2,12 @@
 
 
 # play  = True
-# students = ['Mosh', 'musa', 'uthman', 'khalil', 'mustafa']
+# students = ['Mosh', 'musa']
+# print(students)
 
 # while play:
 #     student = random.choice(students)
-#     guess = input('Guess a word: ')
+#     guess = input('Guess a word from the list of words: ')
 #     if guess.lower().strip() == student:
 #         print('You win', guess.upper(), 'is the correct word')
 #         play = False
@@ -20,15 +21,20 @@
 # print(len(name2.strip()))
 
 
-import random
 
-game  = True
-numbers  = [1, 2]
-while game:
-    number  = random.choice(numbers)
-    choose = input('try your luck. choose a number')
-    if choose == number:
-        print('you win')
+import random
+play  = True
+aspirants = ['Atiku', 'tinubu']
+print(aspirants)
+
+while play:
+    aspirant = random.choice(aspirants)
+    guess = input('Guess the next president of nigeria: ')
+    if guess.lower().strip() == aspirant:
+        print('You win!', guess.upper(), 'is the Next president of nigeria')
         play = False
     else:
         print('try again')
+
+
+
